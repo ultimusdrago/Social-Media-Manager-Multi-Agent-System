@@ -1,0 +1,12 @@
+# Copy to config/brand_voice.yaml and edit for your brand.
+name: "Example Studio"
+tagline: "Clarity over hype."
+voice:
+  tone: ["direct", "warm", "expert", "slightly witty"]
+  avoid: ["clickbait", "all-caps shouting", "unhedged superlatives", "fake urgency"]
+  signature_phrases:
+    - "Here's what actually matters:"
+audience: "Technical founders and senior ICs who skim fast."
+constraints:
+  max_emojis_per_post: 1
+  link_policy: "Prefer primary sources; label opinion vs fact."
